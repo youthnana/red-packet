@@ -81,6 +81,8 @@ function draw(image,clippingRegion){
 
 function show(){
 
+	clearInterval(theAnimation);
+	
 	theAnimation = setInterval(function(){
 
 		clippingRegion.r += 20;
